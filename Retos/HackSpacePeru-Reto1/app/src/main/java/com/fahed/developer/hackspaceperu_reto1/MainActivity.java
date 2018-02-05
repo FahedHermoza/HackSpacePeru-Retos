@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void Pomodoros(){
         numberPomodoro--;
         if(numberPomodoro > 0){
-            Toast.makeText(getBaseContext(),numberPomodoro+" "+R.string.toast_message_in_progress_pomodoro,
+            Toast.makeText(getBaseContext(),numberPomodoro+" "+getString(R.string.toast_message_in_progress_pomodoro),
                     Toast.LENGTH_LONG).show();
             Working();
         }else{
