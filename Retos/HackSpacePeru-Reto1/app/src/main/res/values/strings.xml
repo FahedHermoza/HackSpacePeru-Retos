@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HackSpacePeru-Reto1</string>
+
+    <string name="subtitle_amount_of_work">min</string>
+    <string name="title_work">TRABAJO</string>
+    <string name="time_default_work">20</string>
+
+    <string name="subtitle_amount_of_sleep">min</string>
+    <string name="title_sleep">DESCANSO</string>
+    <string name="time_default_sleep">5</string>
+
+    <string name="subtitle_pomodoro">time</string>
+    <string name="title_pomodoro">POMODORO</string>
+    <string name="time_default_pomodoro">4</string>
+
+
+
+    <string name="start_pomodoro">INICIAR</string>
+    <string name="cancel_pomodoro">CANCELAR</string>
+    <string name="slogan_proyecto">PRODUCTIVIDAD</string>
+    <string name="toast_message_error">Ingrese todos los paremetros</string>
+    <string name="toast_message_work">Iniciando trabajo</string>
+    <string name="toast_message_sleep">Iniciando descanso</string>
+    <string name="toast_message_pomodoro">Todos los pomodoros finalizaron</string>
+    <string name="toast_message_in_progress_pomodoro">pomodoro terminado</string>
+    <string name="empty_string"></string>
+
+</resources>
