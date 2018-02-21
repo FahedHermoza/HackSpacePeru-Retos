@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HackSpacePeru-Reto2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_name_main">Nombre</string>
+    <string name="title_to_main">Correo</string>
+    <string name="title_afair_main">Asunto</string>
+    <string name="title_message_main">Mensaje</string>
+    <string name="button_title_next_main">SIGUIENTE</string>
+    <string name="button_title_send_main">ENVIAR</string>
+    <string name="error_message_main">Ingrese todo los datos</string>
+    <string name="error_intent_main">No tienes clientes de email instalados</string>
+    <string name="title_activity_email">Email</string>
+</resources>

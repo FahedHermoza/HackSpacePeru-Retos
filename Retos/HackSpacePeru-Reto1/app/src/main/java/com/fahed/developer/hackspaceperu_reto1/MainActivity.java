@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View v) {
-        if(v.getId() == buttonStart.getId()){
+    public void onClick(View view) {
+        if(view.getId() == buttonStart.getId()){
             if(!editTextWork.getText().toString().equals(getString(R.string.empty_string))  &&
                     !editTextSleep.getText().toString().equals(getString(R.string.empty_string)) &&
                     !editTextPomodoro.getText().toString().equals(getString(R.string.empty_string)) ){
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 timeWork = Integer.parseInt(editTextWork.getText().toString());
                 timeSleep = Integer.parseInt(editTextSleep.getText().toString());
                 numberPomodoro = Integer.parseInt(editTextPomodoro.getText().toString());
-                Working();
+
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
                     int cx= buttonStart.getWidth()/2;
                     int cy= buttonStart.getHeight()/2;
@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }else{
                     buttonStart.setVisibility(View.INVISIBLE);
                 }
+
+                Working();
             }else{
                 Toast.makeText(getBaseContext(),R.string.toast_message_error,Toast.LENGTH_LONG).show();
             }
