@@ -57,11 +57,11 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
 * Implementado en Fragment.
 
 <div align="center">
-        <img width="70%" src="screenShots/reto3_01.png" alt="About screen" title="About screen" align="left"</img>
+        <img width="30%" src="screenShots/reto3_01.png" alt="About screen" title="About screen" </img>
         <img height="0" width="32px">
-        <img width="70%" src="screenShots/reto3_02.png" alt="About screen" title="About screen" align="left"</img>
+        <img width="30%" src="screenShots/reto3_02.png" alt="About screen" title="About screen" </img>
         <img height="0" width="32px">
-        <img width="70%" src="screenShots/reto3_03.png" alt="About screen" title="About screen" align="left"</img>
+        <img width="30%" src="screenShots/reto3_03.png" alt="About screen" title="About screen" </img>
         <img height="0" width="32px">
 </div>
 	
