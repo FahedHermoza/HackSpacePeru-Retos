@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HackSpace Perú - Reto3</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="snackbar_error_items">Ocurrio un error</string>
+    <string name="list_empty_items">No se cuenta con ninguna moneda. </string>
+    <string name="title_symbol_items">BTC</string>
+    <string name="title_rank_items">Rank #1</string>
+    <string name="title_price_items">PRECIO</string>
+    <string name="title_price_dolar_items">$ 10889.0</string>
+    <string name="title_price_btc_items">1.0 BTC</string>
+    <string name="title_change_btc_items">Cambio 1h/24h/7d</string>
+    <string name="subtitle_one_change_btc_items">0.04%</string>
+    <string name="subtitle_two_change_btc_items">-0.03%</string>
+    <string name="subtitle_trhee_change_btc_items">-0.57%</string>
+    <string name="title_available_supply_btc_items">Suministro disponible</string>
+    <string name="subtitle_available_supply_btc_items">16879175.0</string>
+    <string name="title_total_supply_btc_items">Suministro total</string>
+    <string name="subtitle_total_supply_btc_items">16879175.0</string>
+    <string name="title_max_supply_btc_items">Suministro máximo</string>
+    <string name="subtitle_max_supply_btc_items">21000000.0</string>
+    <string name="subtitle_last_update_btc_items">Hace 2 dias</string>
+
+    <string name="title_ranking_items">Rank #</string>
+    <string name="title_dolar_items">$</string>
+    <string name="title_btc_items">BTC</string>
+
+    <string name="loading_items">Obteniendo nuevas monedas ...</string>
+
+</resources>
