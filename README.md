@@ -20,6 +20,17 @@ Como primer proyecto tendras que desarrollar una aplicacion para aumentar tu pro
 * Implementacón de Toast.
 * Implementado en Activity.
 
+<div align="center">
+        <img width="30%" src="screenShots/reto1_01.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto1_02.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto1_03.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto1_04.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+</div>
+
 # Pasar datos entre actividades y enviar un correo :e-mail:
 
 Utilice la primera actividad para ingresar datos de usuario, no es una autenticacion de usuario, y en la siguiente actividad muestre esos datos ingresados con lo explicado anteriormente y utilice algun tipo de Intent para poder lograr abrir el menu de opciones para poder enviar un correo.
@@ -33,6 +44,19 @@ Utilice la primera actividad para ingresar datos de usuario, no es una autentica
 * Implementación de Snackbar y Toast.
 * Implementación de Intent para enviar un Email.
 * Implementado en Fragment.
+
+<div align="center">
+        <img width="30%" src="screenShots/reto2_01.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto2_02.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto2_03.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto2_04.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+        <img width="30%" src="screenShots/reto2_05.png" alt="About screen" title="About screen" </img>
+        <img height="0" width="32px">
+</div>
 
 # CryptoCurrency App
 
