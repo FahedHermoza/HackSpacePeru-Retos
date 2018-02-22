@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int timeWork;
     private int timeSleep;
     private int numberPomodoro;
+    private int totalPomodoro;
 
     private Handler handler;
     private long timeRemeaning = 0;
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 timeWork = Integer.parseInt(editTextWork.getText().toString());
                 timeSleep = Integer.parseInt(editTextSleep.getText().toString());
                 numberPomodoro = Integer.parseInt(editTextPomodoro.getText().toString());
+                totalPomodoro = numberPomodoro;
+
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
                     int cx= buttonStart.getWidth()/2;
@@ -132,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void Pomodoros(){
         numberPomodoro--;
         if(numberPomodoro > 0){
-            Toast.makeText(getBaseContext(),numberPomodoro+" "+getString(R.string.toast_message_in_progress_pomodoro),
+            Toast.makeText(getBaseContext(),(totalPomodoro-numberPomodoro)+" "+getString(R.string.toast_message_in_progress_pomodoro),
                     Toast.LENGTH_LONG).show();
             Working();
         }else{
