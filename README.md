@@ -1,4 +1,4 @@
-# Retos de HackSpace Perú - ANDROID
+# Retos HackSpace Perú - ANDROID
 [![forthebadge](http://forthebadge.com/images/badges/built-for-android.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 <div align="center">
 
@@ -13,7 +13,7 @@ Como primer proyecto tendras que desarrollar una aplicacion para aumentar tu pro
 
 ## Aprendizaje :
 
-* Implementacion del diseño con ConstraintLayout.
+* Implementación del diseño con ConstraintLayout.
 * Animación para el button Iniciar.
 * Implementación de OnClickListener.
 * Implementación de Handler(thread) para refrescar el tiempo.
@@ -26,8 +26,8 @@ Utilice la primera actividad para ingresar datos de usuario, no es una autentica
 
 ## Aprendizaje :
 
-* Implementacion del diseño con Layouts.
-* Implementacion de CardView.
+* Implementación del diseño con Layouts.
+* Implementación de CardView.
 * Utilización de colores degradados.
 * Pasar datos entre actividades encapsulando la Clase Hija(Fragment).
 * Implementación de Snackbar y Toast.
@@ -48,7 +48,7 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
 
 ## Aprendizaje :
 
-* Implementacion del diseño con RecyclerView, CardView y ConstraintLayout.
+* Implementación del diseño con RecyclerView, CardView y ConstraintLayout.
 * Implementado con el Estilo Arquitectonico MVP.
 * Implementación con Retrofit para consumir servicios.
 * Implementación con Picasso para consumir servicios.
@@ -56,6 +56,14 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
 * Implementación de RecyclerView con Endless scroll.
 * Implementado en Fragment.
 
+<div align="center">
+        <img width="70%" src="screenShots/reto3_01.png" alt="About screen" title="About screen"</img>
+        <img height="0" width="32px">
+        <img width="70%" src="screenShots/reto3_02.png" alt="About screen" title="About screen"</img>
+        <img height="0" width="32px">
+        <img width="70%" src="screenShots/reto3_03.png" alt="About screen" title="About screen"</img>
+        <img height="0" width="32px">
+</div>
 	
 ## Developed by
 
