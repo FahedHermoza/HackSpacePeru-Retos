@@ -85,7 +85,7 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
         <img height="0" width="32px">
         <img width="30%" src="screenShots/reto3_02.png" alt="About screen" title="About screen" </img>
         <img height="0" width="32px">
-        <img width="30%" src="screenShots/reto3_03.png" alt="About screen" title="About screen" </img>
+        <img width="30%" src="screenShots/reto3_04.png" alt="About screen" title="About screen" </img>
         <img height="0" width="32px">
 </div>
 	
