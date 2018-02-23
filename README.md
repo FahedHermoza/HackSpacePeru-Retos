@@ -31,7 +31,7 @@ Como primer proyecto tendras que desarrollar una aplicacion para aumentar tu pro
         <img height="0" width="32px">
 </div>
 
-# Pasar datos entre actividades y enviar un correo :e-mail:
+# Reto 2. Pasar datos entre actividades y enviar un correo :e-mail:
 
 Utilice la primera actividad para ingresar datos de usuario, no es una autenticacion de usuario, y en la siguiente actividad muestre esos datos ingresados con lo explicado anteriormente y utilice algun tipo de Intent para poder lograr abrir el menu de opciones para poder enviar un correo.
 
@@ -40,7 +40,7 @@ Utilice la primera actividad para ingresar datos de usuario, no es una autentica
 * Implementación del diseño con Layouts.
 * Implementación de CardView.
 * Utilización de colores degradados.
-* Pasar datos entre actividades encapsulando la Clase Hija(Fragment).
+* Pasar datos entre actividades preservando el principio de encapsulación en la nueva clase.
 * Implementación de Snackbar y Toast.
 * Implementación de Intent para enviar un Email.
 * Implementado en Fragment.
@@ -58,7 +58,7 @@ Utilice la primera actividad para ingresar datos de usuario, no es una autentica
         <img height="0" width="32px">
 </div>
 
-# CryptoCurrency App
+# Reto 3. CryptoCurrency App
 
 Ya no es ajeno a nadie que las criptomonedas presentan una gran oprtunidad para todos , generando oportunidades de todo tipo ,incluyendo a los desarrolladores. Estar al tanto de como evolucionan las monedas a nivel mundial otorga una ventaja sobre aquellos que son mas nuevos.
 Es por eso que la [criptoconcurrencia](https://blockgeeks.com/guides/what-is-cryptocurrency/) es un tema que viene en alza ultimamente.
@@ -75,7 +75,7 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
 * Implementación del diseño con RecyclerView, CardView y ConstraintLayout.
 * Implementado con el Estilo Arquitectonico MVP.
 * Implementación con Retrofit para consumir servicios.
-* Implementación con Picasso para consumir servicios.
+* Implementación con Picasso para consumir imagenes.
 * Implementación de RecyclerView con la clase Adapter y Model.
 * Implementación de RecyclerView con Endless scroll.
 * Implementado en Fragment.
@@ -91,5 +91,5 @@ Es por eso que como proyecto final desarrollaran una app de criptoconcurrencia d
 	
 ## Developed by
 
-* Fahed Hermoza, Visitame en [Facebook](https://www.facebook.com/fahedhermoza/) para mas detalles.
+* Fahed Hermoza, Visitame en [Facebook](https://www.facebook.com/fahedhermoza/) para más detalles.
 
