@@ -25,7 +25,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainInteractorImpl implements MainInteractor {
     private MainPresenter presenter;
-    private final String stringUrl = "https://api.coinmarketcap.com/";
+    private final String URL = "https://api.coinmarketcap.com/";
+    private final int LIMIT_ITEMS = 10;
 
     public MainInteractorImpl(MainPresenter presenter) {
         this.presenter = presenter;
@@ -41,11 +42,13 @@ public class MainInteractorImpl implements MainInteractor {
         Gson gson = new GsonBuilder().setLenient().create();
 
         Retrofit retrofit =  new Retrofit.Builder()
-                .baseUrl(stringUrl)
+                .baseUrl(URL)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ServicesEndPoint service = retrofit.create(ServicesEndPoint.class);
-        Call<List<ResponseItemsCoins>> call =service.findGetCoins(pagination,pagination + 5);
+
+        // ?start=0&limit=10
+        Call<List<ResponseItemsCoins>> call =service.findGetCoins(pagination,LIMIT_ITEMS);
 
         call.enqueue(new Callback<List<ResponseItemsCoins>>() {
             @Override
